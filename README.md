@@ -10,7 +10,7 @@
 
 ## Captures d'écran
 
-![Interface principale](https://via.placeholder.com/600x300)  
+![Interface principale]([https://via.placeholder.com/600x300](https://github.com/skibidiiiiiiii/search-github/blob/main/image.png?raw=true))  
 *Exemple d'affichage des résultats de recherche.*
 
 ## Prérequis
